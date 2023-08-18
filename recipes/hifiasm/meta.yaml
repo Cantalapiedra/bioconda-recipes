@@ -1,4 +1,4 @@
-{% set version = "0.18.5" %}
+{% set version = "0.19.6" %}
 
 package:
   name: hifiasm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/chhylp123/hifiasm/archive/{{ version }}.tar.gz
-  sha256: 962b023179123046ed25b4be179f3b7e255ce200e908f90e6c4a8c398f3805e2
+  sha256: 9a0d99f80759f759f9156f506defa13125610e5a7746e8d11c20fdc95537f344
 
 build:
   number: 0

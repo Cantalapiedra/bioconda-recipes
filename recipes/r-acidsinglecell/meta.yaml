@@ -1,4 +1,4 @@
-{% set version = "0.3.3" %}
+{% set version = "0.3.6" %}
 {% set github = "https://github.com/acidgenomics/r-acidsinglecell" %}
 
 package:
@@ -7,10 +7,10 @@ package:
 
 source:
   url: "{{ github }}/archive/v{{ version }}.tar.gz"
-  sha256: 4b38af4ca7ef7d05d15e01274e72c846ded19ad75415636f992f42ed5155bc7f
+  sha256: 440bf4f9c4c60fa6ef2c37de94dcbbb374d6bd383180f822dabb33b0030e1580
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 requirements:
